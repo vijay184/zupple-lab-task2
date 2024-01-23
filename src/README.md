@@ -13,11 +13,11 @@ node.js installed on your machine
 
 ### 1.Clone the repository:
 
-### `git clone https://github.com/your-username/your-repo.git`
+### `git clone https://github.com/vijay184/zupple-lab-task2.git`
 
 ### 2.Navigate to the project directory:
 
-### `cd your-repo`
+### `cd zupple-lab-task2`
 
 ### 3.Install dependencies:
 

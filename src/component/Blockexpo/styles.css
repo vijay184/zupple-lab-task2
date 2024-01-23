@@ -1,0 +1,527 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 5%;
+  background-color: #f0f0f0; /* Set a background color for the body */
+}
+
+.container {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+.md-txt {
+  font-size: 25px;
+  font-weight: bold;
+  /* position: absolute; */
+}
+
+.sm-txt {
+  font-size: 17px;
+  margin: 5px 0;
+  /* position: absolute; */
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  /* margin-bottom: 36%; */
+  position: relative;
+}
+
+.box-behind {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -15px;
+  left: -15px;
+  /* margin: 8%; */
+  background-color: #856e36; /* Shadow color with alpha transparency */
+  z-index: -1; /* Set a lower z-index to place it behind the main box */
+}
+.box-behind1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -15px;
+  left: -15px;
+  /* margin: 8%; */
+  background-color: blue; /* Shadow color with alpha transparency */
+  z-index: -1; /* Set a lower z-index to place it behind the main box */
+}
+
+.bottom-left-div {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 137px;
+  left: -11px;
+  width: 20px;
+  z-index: -1;
+  height: 20px;
+  background-color: #856e36;
+}
+.bottom-left-div1 {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 137px;
+  left: -11px;
+  width: 20px;
+  z-index: -1;
+  height: 20px;
+  background-color: blue;
+}
+.top-left-line {
+  width: 22px;
+  height: 2px;
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 10;
+  /* background-color: white; */
+  left: -18px;
+  top: -8px;
+}
+.top-left-line1 {
+  width: 22px;
+  height: 2px;
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 10;
+  /* background-color:; */
+  left: -18px;
+  top: -8px;
+}
+
+.top-right-div {
+  transform: rotate(45deg);
+  position: absolute;
+  top: -10px;
+  left: 137px;
+  width: 20px;
+  z-index: -1;
+  height: 20px;
+  background-color: #856e36;
+}
+.top-right-div1 {
+  transform: rotate(45deg);
+  position: absolute;
+  top: -10px;
+  left: 137px;
+  width: 20px;
+  z-index: -1;
+  height: 20px;
+  background-color: blue;
+}
+.gold {
+  background-color: #c7930e;
+}
+
+.blue {
+  background-color: rgb(33, 102, 205);
+}
+
+.exclamation-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exclamation-mark {
+  font-size: 24px;
+  color: white;
+  margin: 5px;
+}
+
+.bluebox-upper-value-container {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+.bluebox-upper-value {
+  color: aqua;
+  flex: 1;
+  font-size: x-large;
+  margin-left: 1035px;
+  margin-top: 15px;
+}
+
+.bluebox-upper-value1 {
+  color: aqua;
+  flex: 1;
+  font-size: x-large;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+.bluebox-upper-value2 {
+  color: aqua;
+  flex: 1;
+  font-size: x-large;
+  /* margin-left:1095px; */
+  margin-left: 45px;
+  margin-top: 15px;
+}
+.bluebox-upper-value3 {
+  color: aqua;
+  flex: 1;
+  font-size: x-large;
+  /* margin-left:1125px; */
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+.white-box {
+  width: 1650px; /* Set the width of the box */
+  height: 5px; /* Set the height of the box */
+  background-color: white; /* Set the background color of the box */
+  border: 2px solid black; /* Optional: Add a border to the box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 20px; Add a margin for spacing */
+  /* position: absolute; */
+  top: 0;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  /* margin-top: 12%;  */
+  margin: 0 8rem;
+}
+.block-number {
+  font-size: large;
+  font-weight: bold;
+}
+.block-number1 {
+  font-size: medium;
+  font-weight: bold;
+  flex: 1;
+}
+.pagination-transaction-id-div {
+  display: flex;
+  flex-direction: row;
+}
+.pagination-div {
+  color: aqua;
+}
+.color {
+  color: rgb(6, 230, 250);
+}
+.block-information-container {
+  margin: 0 8rem;
+  margin-top: 10px;
+}
+
+.block-transaction-information {
+  width: 100%;
+  height: 235px;
+  /* border:1px solid purple; */
+  background-color: rgb(43, 59, 94);
+  margin: 10px 0;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: row;
+}
+.block-hash-timestamp-size {
+  margin: 0%;
+  flex: 1;
+  font-weight: bold;
+}
+
+.hash-text,
+.size-text,
+.weight-text,
+.timestamp-text {
+  flex: 1;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.size-value,
+.weight-value,
+.timestamp-value {
+  flex: 1;
+  font-weight: bold;
+}
+.hash-value {
+  flex: 1;
+  color: rgb(6, 230, 250);
+  font-weight: bold;
+}
+.colors {
+  color: rgb(45, 234, 45);
+}
+.block-hash,
+.block-size {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 22%;
+
+  margin: 1%;
+
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.block-timestamp,
+.block-weight {
+  height: 15%;
+  /* padding: 5%;*/
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+
+  /* box-sizing: border-box;  */
+}
+
+.block-totalfee-miner {
+  margin: 0%;
+  flex: 1;
+  font-weight: bold;
+}
+
+.block-total-fee,
+.block-miner {
+  background-color: black;
+  font-weight: bold;
+  height: 22%;
+
+  display: flex;
+  flex-direction: row;
+
+  margin: 1%;
+
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+.block-subsidy {
+  height: 15%;
+  /* padding: 5%;*/
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+.fees-text,
+.charges-text,
+.miner-text {
+  margin-left: 15px;
+  flex: 1;
+  font-weight: bold;
+}
+
+.fees-value,
+.charges-value {
+  /* margin-left: 15px; */
+  flex: 1;
+  font-weight: bold;
+}
+.miner-value {
+  /* background-color: blue; */
+  padding: 3px;
+  width: 2px;
+  flex: 1;
+  font-weight: bold;
+}
+
+.miner-value-span {
+  background-color: blue;
+  padding: 5px;
+  font-weight: bold;
+}
+.block-transaction-2075 {
+  font-size: medium;
+  font-weight: bold;
+}
+.font {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.block-transcation-id {
+  height: 45px; /* Set the height of the box */
+  background-color: rgb(43, 59, 94); /* Set the background color of the box */
+  border: 2px solid black; /* Optional: Add a border to the box */
+  display: flex;
+  flex-direction: row;
+}
+
+.block-id {
+  color: rgb(6, 230, 250);
+  flex: 1;
+  margin: 1%;
+  font-weight: bold;
+}
+.block-datetime {
+  flex: 1;
+  margin-left: 52%;
+  font-weight: bold;
+}
+
+.block-coinbase {
+  width: 100%;
+  height: 235px;
+  /* border:1px solid purple; */
+  background-color: rgb(43, 59, 94);
+  margin: 10px 0;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.coin-base-left {
+  align-items: left;
+  flex: 1;
+}
+
+.coin-base-left-upper-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+.coin-base-left-upper-text1 {
+  margin-left: 5rem;
+  color: rgb(6, 230, 250);
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.coin-base-left-below-text {
+  margin-left: 6rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.coin-base-right {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.coins-base-right-left {
+  /* flex: 1; */
+  margin-left: 10rem;
+}
+.coins-base-right-right {
+  /* flex: 1; */
+  margin-right: 10rem;
+}
+
+.bitcoin-sum {
+  background-color: blue;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.block-transcation-id1 {
+  height: 45px; /* Set the height of the box */
+  background-color: rgb(43, 59, 94); /* Set the background color of the box */
+  border: 2px solid black; /* Optional: Add a border to the box */
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5%;
+}
+.red-arrow-box1 {
+  width: 100%;
+  height: 145px;
+  /* border:1px solid purple; */
+  background-color: rgb(43, 59, 94);
+  margin: 10px 0;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.BTC {
+  padding: 1%;
+}
+
+.yellow-rectangle-box {
+  background-color: yellow;
+  color: black;
+  font-size: 16px;
+  height: 1.2rem;
+  width: 7.3rem;
+  margin-left: 12%;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  padding: 1px;
+  border-radius: 20px;
+}
+
+.red-arrow-box-value {
+  display: flex;
+  flex-direction: row;
+}
+.arrow,
+.arrow3 {
+  flex: 1;
+  margin-left: 10px;
+  /* font-size: 20px; */
+}
+
+.green-arrow1 {
+  display: flex;
+  flex-direction: row;
+}
+.black-white-arrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow-div {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  width: 10rem;
+  height: 38px;
+}
+
+.arrow-div1 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 10px;
+  width: 10rem;
+  height: 38px;
+}
+.arrow4 {
+  flex: 1;
+  margin-left: 10px;
+  margin-top: -5px;
+  /* font-size: 20px; */
+}
+.arrow-div2 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 1px;
+  width: 10rem;
+  height: 38px;
+}
+.arrow5 {
+  flex: 1;
+  margin-left: 10px;
+  margin-top: -5px;
+  /* font-size: 20px; */
+}
+
+.top-blackwhite-arrow {
+  margin-right: 5px;
+  margin-top: -5px;
+}
